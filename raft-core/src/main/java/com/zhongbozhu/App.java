@@ -1,3 +1,5 @@
+package com.zhongbozhu;
+
 import java.util.ArrayList;
 import java.util.concurrent.Semaphore;
 import java.lang.Math;
@@ -319,7 +321,7 @@ class ReceiveMessage extends Thread{
     }
 }
 
-public class RaftNode{
+public class App{
     private static void enterFollower(){
         while (true){
             try{

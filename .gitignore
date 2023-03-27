@@ -1,4 +1,7 @@
 __pycache__
-raft_build
+.vscode
 dummy.py
 *.log
+*.jar
+target/
+raft-test-framework/raft
